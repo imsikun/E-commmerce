@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+/* nav */
+nav {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 50px;
+}
+
+/* top nav */
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background: gray;
+  border-radius: 10px;
+}
+.searchInput {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+}
+.searchInput::placeholder {
+  color: lightgray;
+}
+.limitedOffer {
+  font-size: 20px;
+  border-bottom: 2px solid green;
+  cursor: pointer;
+}
+
+/* topNav */
+
+/* bottom nav */
+.navBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuItem {
+  margin-right: 50px;
+  cursor: pointer;
+  color: lightgray;
+}
+/* bottom nav */
+
+/* nav */
+
+/* slider */
+.slider {
+  background: url('https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+}
+.sliderWrapper {
+  display: flex;
+  width: 500vw;
+}
+.sliderItem {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.sliderTitle {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+}
+/* slider */
